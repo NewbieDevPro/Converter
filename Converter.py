@@ -1361,7 +1361,7 @@ def Data_Convert():
         Retry()
 
    def Retry():
-        Again = ("Would you like to go again or go to menu? ")
+        Again = input("Would you like to go again or go to menu? ")
         if Again == "Again":
             Menu()
         elif Again == "Menu":
@@ -1372,7 +1372,63 @@ def Data_Convert():
 
    def Menu():
       Choice = input("What would you like to do: \n Bit to Nibble (BtN) \n Bit to Byte (BtBy) \n Bit to Kilobyte (BtK) \n Bit to Megabyte (BtM) \n Bit to Gigabyte (BtG) \n Bit to Terabyte (BtT) \n Nibble to Bit (NtB) \n Nibble to Byte (NtBy) \n Nibble to Kilobyte (NtK) \n Nibble to Megabyte (NtM) \n Nibble to Gigabyte (NtG) \n Nibble to Terabyte (NtT) \n Byte to Bit (BytB) \n Byte to Kilobyte (BytK) \n Byte to Megabyte (BytM) \n Byte to Gigabyte (BytG) \n Byte to Terabyte (BytT) \n Kilobyte to Bit (KtB) \n Kilobyte to Byte (KtBy) \n Kilobyte to Megabyte (KtM) \n Kilobyte to Gigabyte (KtG) \n Kilobyte to Terabyte (KtT) \n Megabyte to Bit (MtB) \n Megabyte to Byte (MtBy) \n Megabyte to Kilobyte (MtK) \n Megabyte to Gigabyte (MtG) \n Megabyte to Terabyte (MtT) \n Gigabyte to Bit (GtB) \n Gigabyte to Byte (GtBy) \n Gigabyte to Kilobyte (GtK) \n Gigabyte to Megabyte (GtM) \n Gigabyte to Terabyte (GtT) \n Terabyte to Bit (TtB) \n Terabyte to Byte (TtBy) \n Terabyte to Kilobyte (TtK) \n Terabyte to Megabyte (TtM) \n Terabyte to Gigabyte (TtG) \n Which one would you like: ")
-
+      if Choice == "BtN":
+         Bit_to_Nibble()
+      elif Choice == "BtBy":
+         Bit_to_Byte()
+      elif Choice == "BtK":
+         Bit_to_Kilobyte()
+      elif Choice == "BtM":
+         Bit_to_Megabyte()
+      elif Choice == "BtG":
+         Bit_to_Gigabyte()
+      elif Choice == "BtT":
+         Bit_to_Terabyte()
+      elif Choice == "NtB":
+         Nibble_to_Bit()
+      elif Choice == "NtBy":
+         Nibble_to_Byte()
+      elif Choice == "NtM":
+         Nibble_to_Megabyte()
+      elif Choice == "NtG":
+         Nibble_to_Gigabyte()
+      elif Choice == "NtT":
+         Nibble_to_Terabyte()
+      elif Choice == "BytB":
+         Byte_to_Bit()
+      elif Choice == "BytM":
+         Byte_to_Megabyte()
+      elif Choice == "BytG":
+         Byte_to_Gigabyte()
+      elif Choice == "BytT":
+         Byte_to_Terabyte()
+      elif Choice == "MtB":
+         Megabyte_to_Bit()
+      elif Choice == "MtBy":
+         Megabyte_to_Byte()
+      elif Choice == "MtG":
+         Megabyte_to_Gigabyte()
+      elif Choice == "MtT":
+         Megabyte_to_Terabyte()
+      elif Choice == "GtB":
+         Gigabyte_to_Bit()
+      elif Choice == "GtBy":
+         Gigabyte_to_Byte()
+      elif Choice == "GtM":
+         Gigabyte_to_Megabyte()
+      elif Choice == "GtT":
+         Gigabyte_to_Terabyte()
+      elif Choice == "TtB":
+         Terabyte_to_Bit()
+      elif Choice == "TtBy":
+         Terabyte_to_Byte()
+      elif Choice == "TtM":
+         Terabyte_to_Megabyte()
+      elif Choice == "TtG":
+         Terabyte_to_Gigabyte()
+      else:
+         print("Goodbye")
+         time.sleep(4)
    Menu()
 def Main_Menu():
     Choice = input("\n Time" + "\n Weight" + "\n Temperature" + "\n Speed" + "\n Data" + "\n What would you like to convert: ")
