@@ -1371,7 +1371,7 @@ def Data_Convert():
             time.sleep(4)
 
    def Menu():
-      Choice = input("What would you like to do: Bit to Nibble (BtN) \n Bit to Byte (BtBy) \n Bit to Kilobyte (BtK) \n Bit to Megabyte (BtM) \n Bit to Gigabyte (BtG) \n Bit to Terabyte (BtT)")
+      Choice = input("What would you like to do: \n Bit to Nibble (BtN) \n Bit to Byte (BtBy) \n Bit to Kilobyte (BtK) \n Bit to Megabyte (BtM) \n Bit to Gigabyte (BtG) \n Bit to Terabyte (BtT)")
 
    Menu()
 def Main_Menu():
