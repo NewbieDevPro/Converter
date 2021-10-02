@@ -1371,7 +1371,7 @@ def Data_Convert():
             time.sleep(4)
 
    def Menu():
-      Choice = input("What would you like to do: \n Bit to Nibble (BtN) \n Bit to Byte (BtBy) \n Bit to Kilobyte (BtK) \n Bit to Megabyte (BtM) \n Bit to Gigabyte (BtG) \n Bit to Terabyte (BtT)")
+      Choice = input("What would you like to do: \n Bit to Nibble (BtN) \n Bit to Byte (BtBy) \n Bit to Kilobyte (BtK) \n Bit to Megabyte (BtM) \n Bit to Gigabyte (BtG) \n Bit to Terabyte (BtT) \n Nibble to Bit (NtB) \n Nibble to Byte (NtBy) \n Nibble to Kilobyte (NtK) \n Nibble to Megabyte (NtM) \n Nibble to Gigabyte (NtG) \n Nibble to Terabyte (NtT) \n Byte to Bit (BytB) \n Byte to Kilobyte (BytK) \n Byte to Megabyte (BytM) \n Byte to Gigabyte (BytG) \n Byte to Terabyte (BytT) \n Kilobyte to Bit (KtB) \n Kilobyte to Byte (KtBy) \n Kilobyte to Megabyte (KtM) \n Kilobyte to Gigabyte (KtG) \n Kilobyte to Terabyte (KtT) \n Megabyte to Bit (MtB) \n Megabyte to Byte (MtBy) \n Megabyte to Kilobyte (MtK) \n Megabyte to Gigabyte (MtG) \n Megabyte to Terabyte (MtT) \n Gigabyte to Bit (GtB) \n Gigabyte to Byte (GtBy) \n Gigabyte to Kilobyte (GtK) \n Gigabyte to Megabyte (GtM) \n Gigabyte to Terabyte (GtT) \n Terabyte to Bit (TtB) \n Terabyte to Byte (TtBy) \n Terabyte to Kilobyte (TtK) \n Terabyte to Megabyte (TtM) \n Terabyte to Gigabyte (TtG) \n Which one would you like: ")
 
    Menu()
 def Main_Menu():
