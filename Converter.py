@@ -7,6 +7,18 @@ def Time_Convert():
         print("That is " + str(Seconds) + " Seconds")
         Retry()
 
+   def Mill_to_Min():
+         Time = int(input("Please enter the amount of Milliseconds you wish to convert: "))
+         Minutes = Time / 60000
+         print("That is " + str(Minutes) + " Minutes")
+         Retry()
+
+   def Mill_to_Hour():
+         Time = int(input("Please enter the amount of Milliseconds you wish to convert: "))
+         Hours = Time / 3.6000e+6
+         print("That is " + str(Hours) + " Hours")
+         Retry()
+
    def Sec_to_Mill():
         Time = int(input("Enter the amount of Seconds you wish to convert: "))
         Mill = Time * 1000
