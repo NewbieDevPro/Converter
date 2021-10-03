@@ -19,6 +19,18 @@ def Time_Convert():
          print("That is " + str(Hours) + " Hours")
          Retry()
 
+   def Mill_to_Day():
+         Time = int(input("Please enter the amount of Milliseconds you wish to convert: "))
+         Days = Time / 86400000
+         print("That is " + str(Days) + " Days")
+         Retry()
+
+   def Mill_to_Year():
+         Time = int(input("Please enter the amount of Milliseconds you wish to convert: "))
+         Years = Time / 3.1536e+10
+         print("That is " + str(Years) + " Years")
+         Retry()
+
    def Sec_to_Mill():
         Time = int(input("Enter the amount of Seconds you wish to convert: "))
         Mill = Time * 1000
@@ -30,6 +42,24 @@ def Time_Convert():
         Minutes = Time / 60
         print("That is " + str(Minutes) + " Minutes")
         Retry()
+
+   def Sec_to_Hour():
+      Time = int(input("Enter the amount of seconds you wish to convert: "))
+      Hour = Time / 3600
+      print("That is " + str(Hour) + " Hours")
+      Retry()
+
+   def Sec_to_Day():
+      Time = int(input("Enter the amount of seconds you wish to convert: "))
+      Days = Time / 86400
+      print("That is " + str(Days) + " Days")
+      Retry()
+
+   def Sec_to_Year():
+      Time = int(input("Enter the amount of seconds you wish to convert: "))
+      Years = Time / 31536000
+      print("That is " + str(Years) + " Years")
+      Retry()
 
    def Min_to_Sec():
         Time = int(input("Please enter the amount of Minutes you wish to convert: "))
